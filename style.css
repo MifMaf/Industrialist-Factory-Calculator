@@ -1,8 +1,10 @@
-.redbox {
+#redbox {
   position: absolute;
   background-color: red;
   width: 100px;
   height: 100px;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
 }
 
 .spin {
