@@ -1,0 +1,20 @@
+.redbox {
+  position: absolute;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.spin {
+  animation: animation1 1s linear infinite forwards paused;
+}
+
+.spin:hover {
+  animation-play-state: running;
+}
+
+@keyframes animation1 {
+  to {
+    rotate: 360deg;
+  }
+}
